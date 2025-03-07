@@ -29,7 +29,7 @@ interface GameApiService {
     @GET("games/{id}/suggested")
     suspend fun getSuggestedGames(
         @Path("id") gameId: Int,
-        @Query("key") apiKey: String
+        @Query("key") apiKey: String,
     ): GameResponse
 }
 
