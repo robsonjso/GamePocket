@@ -7,14 +7,17 @@ import androidx.room.RoomDatabase
 import com.example.gamepocket.core.data.database.FavoriteGameEntity
 import com.example.gamepocket.core.data.database.GameDao
 
+// Classe de banco de dados Room
 @Database(entities = [FavoriteGameEntity::class], version = 1)
 abstract class AppDatabase : RoomDatabase() {
     abstract fun gameDao(): GameDao
 
+    // Padrão Singleton para obter a instância do banco de dados
     companion object {
         @Volatile
         private var INSTANCE: AppDatabase? = null
 
+        // Método para obter a instância do banco de dados
         fun getInstance(context: Context): AppDatabase {
             return INSTANCE ?: synchronized(this) {
                 val instance = Room.databaseBuilder(
