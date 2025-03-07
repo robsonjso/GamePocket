@@ -115,7 +115,7 @@ Endpoints implementados:
 
 ## 🧑‍💻 Desenvolvido por
 
-Equipe GamePocket, iniciado por [Seu Nome ou Seu GitHub].
+Equipe 3 HackSprint DevSpace, iniciado por [Robson Santos, Francisco Cleonis, Elieudo Silva, Geovâneo dos Santos Souza].
 
 ---
 
