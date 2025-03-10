@@ -10,13 +10,13 @@
         android:id="@+id/gameImage"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:background="@drawable/bg_capa_detail"/>
+        android:background="@drawable/bg_capa_detail" />
 
     <TextView
         android:id="@+id/gameTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="70dp"
+        android:layout_marginStart="140dp"
         android:layout_marginTop="220dp"
         tools:text="Cuphead"
         android:textSize="30dp"
@@ -31,17 +31,20 @@
         android:justificationMode="inter_word"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
+        android:textStyle="bold"
         tools:text="Cuphead é um jogo eletrônico de run and gun criado pelos irmãos. O jogo foi inspirado no estilo de animação Rubber hose usado em desenhos animados da Era de Ouro da animação americana." />
 
     <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="220dp"
-        android:layout_marginStart="16dp"
-        android:background="@color/black">
+        android:id="@+id/gameIcon"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/bg_icon_detail">
     </ImageView>
 
     <ImageView
+        android:id="@+id/gameFavorite"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:background="#FF0000"
@@ -51,7 +54,8 @@
     </ImageView>
 
     <ImageView
-        android:layout_width="100dp"
+        android:id="@+id/gameStar"
+        android:layout_width="70dp"
         android:layout_height="25dp"
         android:background="#FFFF00"
         android:layout_gravity="end"
@@ -62,49 +66,61 @@
     <ImageView
         android:layout_width="100dp"
         android:layout_height="120dp"
-        android:background="@color/black"
+        android:background="@drawable/bg_icon_detail"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="550dp">
+        android:layout_marginTop="500dp">
     </ImageView>
 
     <ImageView
         android:layout_width="100dp"
         android:layout_height="120dp"
-        android:background="@color/black"
-        android:layout_marginStart="150dp"
-        android:layout_marginTop="400dp">
+        android:background="@drawable/bg_icon_detail"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="370dp">
     </ImageView>
 
     <ImageView
         android:layout_width="100dp"
         android:layout_height="120dp"
-        android:background="@color/black"
+        android:background="@drawable/bg_icon_detail"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="400dp">
+        android:layout_marginTop="370dp">
     </ImageView>
 
     <ImageView
         android:layout_width="100dp"
         android:layout_height="120dp"
-        android:background="@color/black"
-        android:layout_marginStart="280dp"
-        android:layout_marginTop="400dp">
+        android:background="@drawable/bg_icon_detail"
+        android:layout_gravity="end"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="370dp">
     </ImageView>
 
     <ImageView
         android:layout_width="100dp"
         android:layout_height="120dp"
-        android:background="@color/black"
-        android:layout_marginStart="280dp"
-        android:layout_marginTop="550dp">
+        android:background="@drawable/bg_icon_detail"
+        android:layout_marginEnd="16dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="500dp">
     </ImageView>
 
     <ImageView
         android:layout_width="100dp"
         android:layout_height="120dp"
-        android:background="@color/black"
-        android:layout_marginStart="150dp"
-        android:layout_marginTop="550dp">
+        android:background="@drawable/bg_icon_detail"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="500dp">
     </ImageView>
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:id="@+id/btn_return_detail"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_height="wrap_content"
+        android:text="Return"
+        android:background="@drawable/bg_btndetail_return"/>
 
 </FrameLayout>
