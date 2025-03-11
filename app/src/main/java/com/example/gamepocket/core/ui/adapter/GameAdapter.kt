@@ -35,6 +35,7 @@ class GameAdapter(
             binding.gameTitle.text = game.name
             Glide.with(binding.gameImage.context).load(game.backgroundImage).into(binding.gameImage)
             binding.root.setOnClickListener { onClick(game) }
+
         }
     }
 }
