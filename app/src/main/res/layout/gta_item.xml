@@ -4,6 +4,9 @@
     android:layout_height="match_parent"
     android:background="@color/black"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
     
     <ImageView
         android:id="@+id/fotodoJogo"
@@ -29,6 +32,22 @@
         app:layout_constraintStart_toEndOf="@id/fotodoJogo"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/descricaodoJogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:maxLines="4"
+        android:textColor=" #D3D3D3"
+        android:text="GTA 6 terá dois protagonistas, Lucia e Jason, um casal de criminosos à la Bonnie e Clyde."
+        app:layout_constraintTop_toBottomOf="@id/nomedoJogo"
+        app:layout_constraintStart_toEndOf="@id/fotodoJogo"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
     
     <ImageView
         android:id="@+id/fotodoJogo2"
