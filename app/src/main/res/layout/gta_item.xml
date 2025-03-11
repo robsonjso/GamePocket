@@ -10,7 +10,8 @@
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:src="@drawable/gta_6"
-        android:layout_margin="10dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginHorizontal="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
     
@@ -23,7 +24,7 @@
         android:textColor="@color/white"
         android:textStyle="bold"
         android:layout_marginStart="140dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="84dp"
         android:layout_marginEnd="10dp"
         app:layout_constraintStart_toEndOf="@id/fotodoJogo"
         app:layout_constraintTop_toTopOf="parent"
@@ -33,7 +34,7 @@
         android:id="@+id/fotodoJogo2"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:layout_marginTop="160dp"
+        android:layout_marginTop="240dp"
         android:layout_marginHorizontal="16dp"
         android:src="@drawable/black"
         app:layout_constraintStart_toStartOf="parent"
