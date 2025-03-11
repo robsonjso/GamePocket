@@ -19,13 +19,15 @@
         android:background="@color/white"
         tools:text="Qual jogo você está procurando?"/>
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView_listadejogos"
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
-
-
+        android:layout_height="wrap_content"
+        android:text="Comece a pesquisar um jogo..."
+        android:textSize="35sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_margin="120dp"/>
 
 </LinearLayout>
+
 
