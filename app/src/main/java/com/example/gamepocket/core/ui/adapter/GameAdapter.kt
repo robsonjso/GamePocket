@@ -1,4 +1,4 @@
-package package com.example.gamepocket.core.ui.adapter
+package com.example.gamepocket.core.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
