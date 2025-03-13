@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/black"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SearchView
+        android:id="@+id/searchview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/white"
+        android:iconifiedByDefault="false"
+        android:queryHint="Qual jogo você está procurando?"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:text="Qual jogo você está procurando?">
+
+    </SearchView>
+
+
+    <ImageView
+        android:id="@+id/fotodoJogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/gta_6"
+        android:layout_marginTop="84dp"
+        android:layout_marginHorizontal="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    
+    <TextView
+        android:id="@+id/nomedoJogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grand Theft Auto VI"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintStart_toEndOf="@id/fotodoJogo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/descricaodoJogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:maxLines="4"
+        android:textColor=" #D3D3D3"
+        android:text="GTA 6 terá dois protagonistas, Lucia e Jason, um casal de criminosos à la Bonnie e Clyde."
+        app:layout_constraintTop_toBottomOf="@id/nomedoJogo"
+        app:layout_constraintStart_toEndOf="@id/fotodoJogo"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+    
+    <ImageView
+        android:id="@+id/fotodoJogo2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginHorizontal="16dp"
+        android:src="@drawable/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/nomedoJogo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="10dp"
+        android:text="BLACK"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/fotodoJogo"
+        app:layout_constraintTop_toBottomOf="@+id/descricaodoJogo" />
+
+
+    <TextView
+        android:id="@+id/descricaodoJogo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="10dp"
+        android:maxLines="4"
+        android:textColor=" #D3D3D3"
+        android:text="Black é um jogo de tiro em primeira pessoa desenvolvido pela Criterion Games e publicado pela Electronic Arts para PlayStation 2 e Xbox."
+        app:layout_constraintTop_toBottomOf="@id/nomedoJogo"
+        app:layout_constraintStart_toEndOf="@id/fotodoJogo"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+    <ImageView
+        android:id="@+id/fotodoJogo3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginHorizontal="16dp"
+        android:src="@drawable/item_guitarhero3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/nomedoJogo3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guitar Hero III: Legends of Rock"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintStart_toEndOf="@id/fotodoJogo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/descricaodoJogo3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="10dp"
+        android:maxLines="4"
+        android:textColor=" #D3D3D3"
+        android:text="Rock é um jogo eletrônico de ritmo musical desenvolvido pela Neversoft e publicado pela Activision."
+        app:layout_constraintTop_toBottomOf="@id/nomedoJogo"
+        app:layout_constraintStart_toEndOf="@id/fotodoJogo"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageView
+        android:id="@+id/fotodoJogo4"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginHorizontal="16dp"
+        android:src="@drawable/far_cry_6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/nomedoJogo4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FAR CRY® 6"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintStart_toEndOf="@id/fotodoJogo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/descricaodoJogo4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginEnd="10dp"
+        android:maxLines="4"
+        android:textColor=" #D3D3D3"
+        android:text="Far Cry 6 é um jogo eletrônico de tiro em primeira pessoa desenvolvido pela Ubisoft Toronto e publicado pela Ubisoft."
+        app:layout_constraintTop_toBottomOf="@id/nomedoJogo"
+        app:layout_constraintStart_toEndOf="@id/fotodoJogo"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
