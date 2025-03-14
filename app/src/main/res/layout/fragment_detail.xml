@@ -17,7 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="140dp"
-        android:layout_marginTop="220dp"
+        android:layout_marginTop="200dp"
         tools:text="Cuphead"
         android:textSize="30dp"
         android:textStyle="bold"
@@ -59,8 +59,8 @@
         android:layout_height="25dp"
         android:background="#FFFF00"
         android:layout_gravity="end"
-        android:layout_marginEnd="60dp"
-        android:layout_marginTop="220dp">
+        android:layout_marginEnd="200dp"
+        android:layout_marginTop="250dp">
     </ImageView>
 
     <ImageView
@@ -68,7 +68,7 @@
         android:layout_height="120dp"
         android:background="@drawable/bg_icon_detail"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="500dp">
+        android:layout_marginTop="540dp">
     </ImageView>
 
     <ImageView
@@ -76,7 +76,7 @@
         android:layout_height="120dp"
         android:background="@drawable/bg_icon_detail"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="370dp">
+        android:layout_marginTop="410dp">
     </ImageView>
 
     <ImageView
@@ -84,7 +84,7 @@
         android:layout_height="120dp"
         android:background="@drawable/bg_icon_detail"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="370dp">
+        android:layout_marginTop="410dp">
     </ImageView>
 
     <ImageView
@@ -93,7 +93,7 @@
         android:background="@drawable/bg_icon_detail"
         android:layout_gravity="end"
         android:layout_marginEnd="16dp"
-        android:layout_marginTop="370dp">
+        android:layout_marginTop="410dp">
     </ImageView>
 
     <ImageView
@@ -102,7 +102,7 @@
         android:background="@drawable/bg_icon_detail"
         android:layout_marginEnd="16dp"
         android:layout_gravity="end"
-        android:layout_marginTop="500dp">
+        android:layout_marginTop="540dp">
     </ImageView>
 
     <ImageView
@@ -110,17 +110,27 @@
         android:layout_height="120dp"
         android:background="@drawable/bg_icon_detail"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="500dp">
+        android:layout_marginTop="540dp">
     </ImageView>
 
     <com.google.android.material.button.MaterialButton
-        style="@style/Widget.Material3.Button.OutlinedButton"
-        android:id="@+id/btn_return_detail"
         android:layout_width="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginStart="16dp"
         android:layout_height="wrap_content"
-        android:text="Return"
-        android:background="@drawable/bg_btndetail_return"/>
+        android:layout_marginTop="16dp"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_marginStart="16dp"
+        android:text="Return" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Imagens do jogo:"
+        android:layout_marginTop="370dp"
+        android:layout_marginStart="16dp"
+        android:textStyle="italic"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </FrameLayout>
