@@ -1,5 +1,33 @@
 <resources>
     <string name="app_name">GamePocket</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="release_date">Release Date</string>
+    <string name="publisher">Desenvolvedor</string>
+    <string name="rating">Rating</string>
+    <string name="description">Descrição</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="see_more">Veja Mais</string>
+    <string name="best_of_the_year">Melhores do Ano</string>
+    <string name="popular_in_2020">Populares</string>
+    <string name="search">Pesquisa</string>
+    <string name="visit_website">Visite Nosso Site</string>
+    <string name="rawg_description">Seu Diario\nDe Bolso</string>
+    <string name="rawg">Game\nPocket</string>
+    <string name="screenshots">Fotos do Jogo</string>
+    <string name="metascore">Metascore</string>
+    <string name="genre">Generos</string>
+    <string name="games">Jogos</string>
+
+    <!--  exceptions   -->
+    <string name="check_your_connection">Verifique sua Conexão</string>
+    <string name="invalid_api_key">Invalid API key</string>
+    <string name="unexpected_error">Unexpected Error</string>
+    <string name="not_found">Not Found</string>
+    <string name="request_timeout">Request Timeout</string>
+    <string name="the_server_is_unreachable">The server is unreachable</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="bad_request">Bad Request</string>
+    <string name="exit">Sair</string>
+    <string name="back">Voltar</string>
+    <string name="retry">retry</string>
+    <string name="close">Fechar</string>
 </resources>

@@ -6,26 +6,32 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.example.gamepocket.core.ui.Home.HomeFragment"
-        android:label="Home">
-
+        android:name="com.example.gamepocket.source.rawg.ui.home.HomeFragment"
+        android:label="HomeFragment">
         <action
-            android:id="@+id/actionHomeToDetail"
-            app:destination="@id/detailFragment">
-            <argument
-                android:name="gameId"
-                app:argType="integer" />
-        </action>
-
+            android:id="@+id/showGames"
+            app:destination="@id/gameListFragment" />
     </fragment>
-
     <fragment
-        android:id="@+id/detailFragment"
-        android:name="com.example.gamepocket.core.ui.detail.DetailFragment"
-        android:label="Detail">
+        android:id="@+id/gameDetailFragment"
+        android:name="com.example.gamepocket.source.rawg.ui.gamedetail.GameDetailFragment"
+        android:label="GameDetailFragment">
         <argument
             android:name="gameId"
-            app:argType="integer" />
+            android:defaultValue="1"
+            app:argType="integer"
+            app:nullable="false" />
     </fragment>
-
+    <fragment
+        android:id="@+id/gameListFragment"
+        android:name="com.example.gamepocket.source.rawg.ui.gamelist.GameListFragment"
+        android:label="GameListFragment">
+        <action
+            android:id="@+id/showGameDetail"
+            app:destination="@id/gameDetailFragment" />
+        <argument
+            android:name="searchParams"
+            app:argType="com.example.gamepocket.source.rawg.core.domain.model.SearchParams"
+            app:nullable="true" />
+    </fragment>
 </navigation>
