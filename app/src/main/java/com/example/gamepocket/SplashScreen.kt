@@ -23,7 +23,10 @@ class SplashScreen : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         lifecycleScope.launch {
-            delay(1000) // Aguarda 7 segundos
+            delay(7000) // Aguarda 7 segundos (pode ajustar conforme necessário)
+            if (isAdded) {
+                findNavController().navigate(R.id.action_splashScreen_to_homeFragment)
+            }
         }
     }
 }

@@ -18,7 +18,7 @@ class AnimatedRatingBar(context: Context, attributeSet: AttributeSet?) :
         super.onDetachedFromWindow()
     }
 
-    fun startAnimation(rating: Float, duration: Long = 500L) {
+    fun startAnimation(rating: Float, duration: Long = 150L) {
         _animator = ValueAnimator.ofFloat(0.00f, rating)
         _animator?.apply {
             setDuration(duration)
